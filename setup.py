@@ -25,6 +25,7 @@ setup(name='gloss.policy',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'gloss.theme',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
@@ -33,6 +34,4 @@ setup(name='gloss.policy',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
       )
