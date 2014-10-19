@@ -1,4 +1,4 @@
 Introduction
 ============
 
-Policy for the Gloss Project
+Policy file for the Gloss Project
